@@ -1,0 +1,29 @@
+//
+// Created by stanislav on 10/8/17.
+//
+
+#pragma  once
+
+#include "variable.hpp"
+
+
+class IntegerVariable : Variable
+{
+
+
+public:
+    IntegerVariable(std::string &name,
+                    int min = std::numeric_limits<int>::min(),
+                    int max = std::numeric_limits<int>::max());
+
+    ~IntegerVariable();
+
+    bool isValueAllowed(boost::any val) const;
+
+    int getMin() const;
+
+    int getMax() const;
+
+private:
+};
+

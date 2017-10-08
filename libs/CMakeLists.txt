@@ -1,7 +1,16 @@
 cmake_minimum_required(VERSION 3.4)
 
 
-project(Test_libs VERSION 0.0.0 LANGUAGES CXX)
+#project(Test_libs VERSION 0.0.0 LANGUAGES CXX)
+
+
+
+
+
+
+#include_directories(${Boost_INCLUDE_DIR})
+#link_directories(${Boost_LIBRARY_DIR})
+
 
 
 #Modern CMake library
@@ -28,7 +37,6 @@ project(Test_libs VERSION 0.0.0 LANGUAGES CXX)
 ######STREAMS LIBRARY######
 add_library(streams INTERFACE)
 target_include_directories(streams INTERFACE streams/source GLOBAL)
-install(DIRECTORY streams/source/ DESTINATION ${CMAKE_BINARY_DIR}/inc)
 
 ################################
 

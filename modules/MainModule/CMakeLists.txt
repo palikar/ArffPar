@@ -5,13 +5,15 @@ project(Test_MainModule VERSION 0.0.0 LANGUAGES CXX)
 
 
 #for adding an executable
-add_executable(exe src/main.cpp)
+add_executable(exe src/main.cpp src/variable.cpp include/variable.hpp include/arff_parr.hpp include/settings.hpp include/integer_variable.hpp include/real_variable.hpp)
 #for addding an library
 #add_library(lib SHARED|STATIC)
 
 
 target_include_directories(exe PUBLIC include)
 target_link_libraries(exe PRIVATE streams)
+
+
 #target_sources(exe|lib PUBLIC|PRIVATE .\src)
 
 #target_link_libraries(exe|lib PUBLIC|PRIVATE other_target)
