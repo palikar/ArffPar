@@ -7,13 +7,16 @@
 
 #include <string>
 #include <settings.hpp>
+#include <vector>
+#include <DataStructures/example.hpp>
 
-namespace ArffPar
+namespace arff_par
 {
     Settings settings;
 
 
-    void loadFromFile(std::string file, void *obj);
+    void loadFromFile(std::string file, data_works::DataModel *model,
+                      std::vector<std::shared_ptr<data_works::Example> > examples);
 
     void sabeToFile(std::string file, void *obj);
 

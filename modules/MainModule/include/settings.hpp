@@ -10,7 +10,8 @@
 #include <boost/property_tree/ptree.hpp>
 
 
-namespace ArffPar
+
+namespace arff_par
 
 {
     typedef boost::property_tree::ptree tree;
@@ -20,7 +21,7 @@ namespace ArffPar
     public:
         void loadFromFile(tree ptree);
 
-        const inline std::string &getRelation_tag_() const
+        const inline std::string &getRelationTag() const
         {
             return relation_tag_;
         }

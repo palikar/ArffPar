@@ -28,7 +28,7 @@ cmake_force:
 .PHONY : cmake_force
 
 #=============================================================================
-# Set environment variables for the build.
+# Set environment variables_ for the build.
 
 # The shell in which to execute make rules.
 SHELL = /bin/sh
@@ -51,7 +51,7 @@ CMAKE_BINARY_DIR = /home/stanislav/dev/Dev/Projects/ArffPar/build
 # Include any dependencies generated for this target.
 include modules/MainModule/CMakeFiles/exe.dir/depend.make
 
-# Include the progress variables for this target.
+# Include the progress variables_ for this target.
 include modules/MainModule/CMakeFiles/exe.dir/progress.make
 
 # Include the compile flags for this target's objects.

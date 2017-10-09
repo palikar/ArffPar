@@ -8,11 +8,16 @@
 #include <boost/range/algorithm/remove_if.hpp>
 #include <fstream>
 
+#include <vector>
+
+#include <DataStructures/variable.hpp>
+#include <DataStructures/integer_variable.hpp>
 
 int main()
 {
 
-    int a = 9;
+
+
     std::cout << "Application running!" << '\n';
     std::ifstream infile("file.txt");
     if(!infile)

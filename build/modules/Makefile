@@ -33,7 +33,7 @@ cmake_force:
 .PHONY : cmake_force
 
 #=============================================================================
-# Set environment variables for the build.
+# Set environment variables_ for the build.
 
 # The shell in which to execute make rules.
 SHELL = /bin/sh
