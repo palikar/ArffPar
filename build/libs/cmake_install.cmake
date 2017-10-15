@@ -1,4 +1,4 @@
-# Install script for directory: /home/stanislav/dev/Dev/Projects/ArffPar/libs
+# Install script for directory: /home/stanislav/code/ArffPar/libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

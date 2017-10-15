@@ -12,22 +12,38 @@
 
 namespace data_works
 {
-    class Example
-    {
-    public:
-        Example(const std::shared_ptr<DataModel> &model);
+  class Example
+  {
+  public:
+    Example(const std::shared_ptr<DataModel> &model);
 
-        Example(const Example &obj);
+    Example(Example &obj) = default;
+    
+    const std::string &getValue(const std::string &name)const;
 
-        ~Example();
+    template<typename Type>
+    const std::string &getValue(const std::string &name)const;
+    
+    void setValue(const std::string &variable, const std::string &value);
+
+    void setValues(const std::vector<std::string> &vals);
+
+  private:
+    std::shared_ptr<data_works::DataModel> model_;
+    boost::unordered_map<std::string, std::string> values_;
+  };
 
 
-        void setValue(const std::string &variable, const std::string &value);
 
-        void setValues(const std::vector<std::string> &vals);
+   template<typename Type>
+   const std::string &Example::getValue(const std::string &name)const
+   {
+     //do lexical cast with boost
 
-    private:
-        std::shared_ptr<data_works::DataModel> model_;
-        boost::unordered_map<std::string, std::string> values_;
-    };
+
+
+   }
 }
+
+
+

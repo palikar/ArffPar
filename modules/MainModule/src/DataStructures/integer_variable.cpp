@@ -27,7 +27,7 @@ namespace data_works{
         try
         {
             int value = boost::lexical_cast<int>(val);
-            return true;
+            return this->min_ <=value && value<= this->max_;
         } catch(boost::bad_lexical_cast &ex)
         {
             return false;

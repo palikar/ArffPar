@@ -1,4 +1,4 @@
-# Install script for directory: /home/stanislav/dev/Dev/Projects/ArffPar
+# Install script for directory: /home/stanislav/code/ArffPar
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/stanislav/dev/Dev/Projects/ArffPar/build/libs/cmake_install.cmake")
-  include("/home/stanislav/dev/Dev/Projects/ArffPar/build/modules/cmake_install.cmake")
+  include("/home/stanislav/code/ArffPar/build/libs/cmake_install.cmake")
+  include("/home/stanislav/code/ArffPar/build/modules/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/stanislav/dev/Dev/Projects/ArffPar/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/stanislav/code/ArffPar/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

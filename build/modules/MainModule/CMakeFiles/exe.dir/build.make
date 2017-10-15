@@ -28,7 +28,7 @@ cmake_force:
 .PHONY : cmake_force
 
 #=============================================================================
-# Set environment variables_ for the build.
+# Set environment variables for the build.
 
 # The shell in which to execute make rules.
 SHELL = /bin/sh
@@ -43,15 +43,15 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stanislav/dev/Dev/Projects/ArffPar
+CMAKE_SOURCE_DIR = /home/stanislav/code/ArffPar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stanislav/dev/Dev/Projects/ArffPar/build
+CMAKE_BINARY_DIR = /home/stanislav/code/ArffPar/build
 
 # Include any dependencies generated for this target.
 include modules/MainModule/CMakeFiles/exe.dir/depend.make
 
-# Include the progress variables_ for this target.
+# Include the progress variables for this target.
 include modules/MainModule/CMakeFiles/exe.dir/progress.make
 
 # Include the compile flags for this target's objects.
@@ -59,16 +59,16 @@ include modules/MainModule/CMakeFiles/exe.dir/flags.make
 
 modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.o: modules/MainModule/CMakeFiles/exe.dir/flags.make
 modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.o: ../modules/MainModule/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stanislav/dev/Dev/Projects/ArffPar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.o"
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build/modules/MainModule && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exe.dir/src/main.cpp.o -c /home/stanislav/dev/Dev/Projects/ArffPar/modules/MainModule/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stanislav/code/ArffPar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.o"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exe.dir/src/main.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/main.cpp
 
 modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exe.dir/src/main.cpp.i"
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stanislav/dev/Dev/Projects/ArffPar/modules/MainModule/src/main.cpp > CMakeFiles/exe.dir/src/main.cpp.i
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stanislav/code/ArffPar/modules/MainModule/src/main.cpp > CMakeFiles/exe.dir/src/main.cpp.i
 
 modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exe.dir/src/main.cpp.s"
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stanislav/dev/Dev/Projects/ArffPar/modules/MainModule/src/main.cpp -o CMakeFiles/exe.dir/src/main.cpp.s
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stanislav/code/ArffPar/modules/MainModule/src/main.cpp -o CMakeFiles/exe.dir/src/main.cpp.s
 
 modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.o.requires:
 
@@ -81,18 +81,226 @@ modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.o.provides: modules/MainModul
 modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.o.provides.build: modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.o
 
 
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o: modules/MainModule/CMakeFiles/exe.dir/flags.make
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o: ../modules/MainModule/src/DataStructures/variable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stanislav/code/ArffPar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/variable.cpp
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exe.dir/src/DataStructures/variable.cpp.i"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/variable.cpp > CMakeFiles/exe.dir/src/DataStructures/variable.cpp.i
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exe.dir/src/DataStructures/variable.cpp.s"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/variable.cpp -o CMakeFiles/exe.dir/src/DataStructures/variable.cpp.s
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o.requires:
+
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o.requires
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o.provides: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o.requires
+	$(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o.provides.build
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o.provides
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o.provides.build: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o
+
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o: modules/MainModule/CMakeFiles/exe.dir/flags.make
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o: ../modules/MainModule/src/DataStructures/integer_variable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stanislav/code/ArffPar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/integer_variable.cpp
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.i"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/integer_variable.cpp > CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.i
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.s"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/integer_variable.cpp -o CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.s
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o.requires:
+
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o.requires
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o.provides: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o.requires
+	$(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o.provides.build
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o.provides
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o.provides.build: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o
+
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o: modules/MainModule/CMakeFiles/exe.dir/flags.make
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o: ../modules/MainModule/src/DataStructures/real_variable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stanislav/code/ArffPar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/real_variable.cpp
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.i"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/real_variable.cpp > CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.i
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.s"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/real_variable.cpp -o CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.s
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o.requires:
+
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o.requires
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o.provides: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o.requires
+	$(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o.provides.build
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o.provides
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o.provides.build: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o
+
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o: modules/MainModule/CMakeFiles/exe.dir/flags.make
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o: ../modules/MainModule/src/DataStructures/text_variable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stanislav/code/ArffPar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/text_variable.cpp
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.i"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/text_variable.cpp > CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.i
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.s"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/text_variable.cpp -o CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.s
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o.requires:
+
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o.requires
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o.provides: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o.requires
+	$(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o.provides.build
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o.provides
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o.provides.build: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o
+
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o: modules/MainModule/CMakeFiles/exe.dir/flags.make
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o: ../modules/MainModule/src/DataStructures/data_model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stanislav/code/ArffPar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/data_model.cpp
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.i"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/data_model.cpp > CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.i
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.s"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/data_model.cpp -o CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.s
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o.requires:
+
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o.requires
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o.provides: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o.requires
+	$(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o.provides.build
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o.provides
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o.provides.build: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o
+
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.o: modules/MainModule/CMakeFiles/exe.dir/flags.make
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.o: ../modules/MainModule/src/DataStructures/example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stanislav/code/ArffPar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.o"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exe.dir/src/DataStructures/example.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/example.cpp
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exe.dir/src/DataStructures/example.cpp.i"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/example.cpp > CMakeFiles/exe.dir/src/DataStructures/example.cpp.i
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exe.dir/src/DataStructures/example.cpp.s"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/example.cpp -o CMakeFiles/exe.dir/src/DataStructures/example.cpp.s
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.o.requires:
+
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.o.requires
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.o.provides: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.o.requires
+	$(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.o.provides.build
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.o.provides
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.o.provides.build: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.o
+
+
+modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.o: modules/MainModule/CMakeFiles/exe.dir/flags.make
+modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.o: ../modules/MainModule/src/arff_parr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stanislav/code/ArffPar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.o"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exe.dir/src/arff_parr.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/arff_parr.cpp
+
+modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exe.dir/src/arff_parr.cpp.i"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stanislav/code/ArffPar/modules/MainModule/src/arff_parr.cpp > CMakeFiles/exe.dir/src/arff_parr.cpp.i
+
+modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exe.dir/src/arff_parr.cpp.s"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stanislav/code/ArffPar/modules/MainModule/src/arff_parr.cpp -o CMakeFiles/exe.dir/src/arff_parr.cpp.s
+
+modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.o.requires:
+
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.o.requires
+
+modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.o.provides: modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.o.requires
+	$(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.o.provides.build
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.o.provides
+
+modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.o.provides.build: modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.o
+
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o: modules/MainModule/CMakeFiles/exe.dir/flags.make
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o: ../modules/MainModule/src/DataStructures/enum_variable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/stanislav/code/ArffPar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/enum_variable.cpp
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.i"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/enum_variable.cpp > CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.i
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.s"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/enum_variable.cpp -o CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.s
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o.requires:
+
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o.requires
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o.provides: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o.requires
+	$(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o.provides.build
+.PHONY : modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o.provides
+
+modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o.provides.build: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o
+
+
 # Object files for target exe
 exe_OBJECTS = \
-"CMakeFiles/exe.dir/src/main.cpp.o"
+"CMakeFiles/exe.dir/src/main.cpp.o" \
+"CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o" \
+"CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o" \
+"CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o" \
+"CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o" \
+"CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o" \
+"CMakeFiles/exe.dir/src/DataStructures/example.cpp.o" \
+"CMakeFiles/exe.dir/src/arff_parr.cpp.o" \
+"CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o"
 
 # External object files for target exe
 exe_EXTERNAL_OBJECTS =
 
 bin/exe: modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.o
+bin/exe: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o
+bin/exe: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o
+bin/exe: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o
+bin/exe: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o
+bin/exe: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o
+bin/exe: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.o
+bin/exe: modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.o
+bin/exe: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o
 bin/exe: modules/MainModule/CMakeFiles/exe.dir/build.make
 bin/exe: modules/MainModule/CMakeFiles/exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stanislav/dev/Dev/Projects/ArffPar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../bin/exe"
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build/modules/MainModule && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exe.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/stanislav/code/ArffPar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ../../bin/exe"
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 modules/MainModule/CMakeFiles/exe.dir/build: bin/exe
@@ -100,14 +308,22 @@ modules/MainModule/CMakeFiles/exe.dir/build: bin/exe
 .PHONY : modules/MainModule/CMakeFiles/exe.dir/build
 
 modules/MainModule/CMakeFiles/exe.dir/requires: modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.o.requires
+modules/MainModule/CMakeFiles/exe.dir/requires: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o.requires
+modules/MainModule/CMakeFiles/exe.dir/requires: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o.requires
+modules/MainModule/CMakeFiles/exe.dir/requires: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o.requires
+modules/MainModule/CMakeFiles/exe.dir/requires: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o.requires
+modules/MainModule/CMakeFiles/exe.dir/requires: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o.requires
+modules/MainModule/CMakeFiles/exe.dir/requires: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.o.requires
+modules/MainModule/CMakeFiles/exe.dir/requires: modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.o.requires
+modules/MainModule/CMakeFiles/exe.dir/requires: modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o.requires
 
 .PHONY : modules/MainModule/CMakeFiles/exe.dir/requires
 
 modules/MainModule/CMakeFiles/exe.dir/clean:
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build/modules/MainModule && $(CMAKE_COMMAND) -P CMakeFiles/exe.dir/cmake_clean.cmake
+	cd /home/stanislav/code/ArffPar/build/modules/MainModule && $(CMAKE_COMMAND) -P CMakeFiles/exe.dir/cmake_clean.cmake
 .PHONY : modules/MainModule/CMakeFiles/exe.dir/clean
 
 modules/MainModule/CMakeFiles/exe.dir/depend:
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stanislav/dev/Dev/Projects/ArffPar /home/stanislav/dev/Dev/Projects/ArffPar/modules/MainModule /home/stanislav/dev/Dev/Projects/ArffPar/build /home/stanislav/dev/Dev/Projects/ArffPar/build/modules/MainModule /home/stanislav/dev/Dev/Projects/ArffPar/build/modules/MainModule/CMakeFiles/exe.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/stanislav/code/ArffPar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/stanislav/code/ArffPar /home/stanislav/code/ArffPar/modules/MainModule /home/stanislav/code/ArffPar/build /home/stanislav/code/ArffPar/build/modules/MainModule /home/stanislav/code/ArffPar/build/modules/MainModule/CMakeFiles/exe.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : modules/MainModule/CMakeFiles/exe.dir/depend
 

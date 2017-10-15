@@ -12,13 +12,25 @@
 
 namespace arff_par
 {
-    Settings settings;
+  class ArffParser
+  {
+  public:
+    ArffParser();
 
+    void init();
 
-    void loadFromFile(std::string file, data_works::DataModel *model,
-                      std::vector<std::shared_ptr<data_works::Example> > examples);
+    void loadFromFile(const std::string &file,
+                      std::shared_ptr<data_works::DataModel> &model,
+                      std::vector<std::shared_ptr<data_works::Example> > &examples);
 
-    void sabeToFile(std::string file, void *obj);
+    void saveToFile(const std::string &file,  std::shared_ptr<data_works::DataModel> &model,
+                    std::vector<std::shared_ptr<data_works::Example> > &examples);
+  private:
+
+    std::shared_ptr<Settings> settings;
+
+  };
+
 
 
 }

@@ -11,25 +11,33 @@
 
 namespace data_works
 {
+  enum VarType {
+    INTEGER, REAL, ENUM
+
+  };
 
     class Variable
     {
     public:
-        Variable(const std::string &name);
+      Variable(const std::string &name);
 
-        Variable(const Variable &obj);
+      Variable(const Variable &obj);
 
-        ~Variable();
+      ~Variable();
 
 
-        virtual bool isValueAllowed(const std::string &val) const = 0;
 
-        const std::string &getName() const;
+      virtual bool isValueAllowed(const std::string &val) const = 0;
+
+      const std::string &getName() const;
+
+      void setType(const VarType type);
+      const VarType getType() const;
 
     private:
-        std::string name_;
-        boost::unordered_map<std::string, boost::any> params_;
+      std::string name_;
+      boost::unordered_map<std::string, boost::any> params_;
+      VarType type_;
 
     };
 }
-

@@ -9,7 +9,7 @@
 
 
 namespace data_works{
-    class TextVariable : Variable
+    class TextVariable : public Variable
     {
     public:
         TextVariable(const std::string &name, int max_length );

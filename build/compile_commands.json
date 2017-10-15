@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/stanislav/code/ArffPar/build/modules/MainModule",
+  "command": "/usr/bin/c++    -I/home/stanislav/code/ArffPar/modules/MainModule/include -I/home/stanislav/code/ArffPar/libs/streams/source -I/home/stanislav/code/ArffPar/libs/GLOBAL    -std=c++14 -o CMakeFiles/exe.dir/src/main.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/main.cpp",
+  "file": "/home/stanislav/code/ArffPar/modules/MainModule/src/main.cpp"
+},
+{
+  "directory": "/home/stanislav/code/ArffPar/build/modules/MainModule",
+  "command": "/usr/bin/c++    -I/home/stanislav/code/ArffPar/modules/MainModule/include -I/home/stanislav/code/ArffPar/libs/streams/source -I/home/stanislav/code/ArffPar/libs/GLOBAL    -std=c++14 -o CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/variable.cpp",
+  "file": "/home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/variable.cpp"
+},
+{
+  "directory": "/home/stanislav/code/ArffPar/build/modules/MainModule",
+  "command": "/usr/bin/c++    -I/home/stanislav/code/ArffPar/modules/MainModule/include -I/home/stanislav/code/ArffPar/libs/streams/source -I/home/stanislav/code/ArffPar/libs/GLOBAL    -std=c++14 -o CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/integer_variable.cpp",
+  "file": "/home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/integer_variable.cpp"
+},
+{
+  "directory": "/home/stanislav/code/ArffPar/build/modules/MainModule",
+  "command": "/usr/bin/c++    -I/home/stanislav/code/ArffPar/modules/MainModule/include -I/home/stanislav/code/ArffPar/libs/streams/source -I/home/stanislav/code/ArffPar/libs/GLOBAL    -std=c++14 -o CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/real_variable.cpp",
+  "file": "/home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/real_variable.cpp"
+},
+{
+  "directory": "/home/stanislav/code/ArffPar/build/modules/MainModule",
+  "command": "/usr/bin/c++    -I/home/stanislav/code/ArffPar/modules/MainModule/include -I/home/stanislav/code/ArffPar/libs/streams/source -I/home/stanislav/code/ArffPar/libs/GLOBAL    -std=c++14 -o CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/text_variable.cpp",
+  "file": "/home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/text_variable.cpp"
+},
+{
+  "directory": "/home/stanislav/code/ArffPar/build/modules/MainModule",
+  "command": "/usr/bin/c++    -I/home/stanislav/code/ArffPar/modules/MainModule/include -I/home/stanislav/code/ArffPar/libs/streams/source -I/home/stanislav/code/ArffPar/libs/GLOBAL    -std=c++14 -o CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/data_model.cpp",
+  "file": "/home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/data_model.cpp"
+},
+{
+  "directory": "/home/stanislav/code/ArffPar/build/modules/MainModule",
+  "command": "/usr/bin/c++    -I/home/stanislav/code/ArffPar/modules/MainModule/include -I/home/stanislav/code/ArffPar/libs/streams/source -I/home/stanislav/code/ArffPar/libs/GLOBAL    -std=c++14 -o CMakeFiles/exe.dir/src/DataStructures/example.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/example.cpp",
+  "file": "/home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/example.cpp"
+},
+{
+  "directory": "/home/stanislav/code/ArffPar/build/modules/MainModule",
+  "command": "/usr/bin/c++    -I/home/stanislav/code/ArffPar/modules/MainModule/include -I/home/stanislav/code/ArffPar/libs/streams/source -I/home/stanislav/code/ArffPar/libs/GLOBAL    -std=c++14 -o CMakeFiles/exe.dir/src/arff_parr.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/arff_parr.cpp",
+  "file": "/home/stanislav/code/ArffPar/modules/MainModule/src/arff_parr.cpp"
+},
+{
+  "directory": "/home/stanislav/code/ArffPar/build/modules/MainModule",
+  "command": "/usr/bin/c++    -I/home/stanislav/code/ArffPar/modules/MainModule/include -I/home/stanislav/code/ArffPar/libs/streams/source -I/home/stanislav/code/ArffPar/libs/GLOBAL    -std=c++14 -o CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o -c /home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/enum_variable.cpp",
+  "file": "/home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/enum_variable.cpp"
+}
+]

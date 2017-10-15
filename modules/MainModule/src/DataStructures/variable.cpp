@@ -23,4 +23,16 @@ namespace data_works
 
         return this->name_;
     }
+
+
+  void Variable::setType(const VarType type)
+  {
+    this->type_ = type;
+    
+  }
+
+  const VarType Variable::getType()const
+  {
+    return this->type_;
+  }
 }

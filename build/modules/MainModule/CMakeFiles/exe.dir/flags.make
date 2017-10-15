@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/stanislav/dev/Dev/Projects/ArffPar/modules/MainModule/include -I/home/stanislav/dev/Dev/Projects/ArffPar/libs/streams/source -I/home/stanislav/dev/Dev/Projects/ArffPar/libs/GLOBAL 
+CXX_INCLUDES = -I/home/stanislav/code/ArffPar/modules/MainModule/include -I/home/stanislav/code/ArffPar/libs/streams/source -I/home/stanislav/code/ArffPar/libs/GLOBAL 
 

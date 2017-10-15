@@ -34,11 +34,6 @@ cmake_minimum_required(VERSION 3.4)
 
 
 
-######STREAMS LIBRARY######
-add_library(streams INTERFACE)
-target_include_directories(streams INTERFACE streams/source GLOBAL)
-
-################################
 
 
 

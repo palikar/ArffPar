@@ -1,4 +1,4 @@
-# Install script for directory: /home/stanislav/dev/Dev/Projects/ArffPar/modules/MainModule
+# Install script for directory: /home/stanislav/code/ArffPar/modules/MainModule
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMP
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exe"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/stanislav/dev/Dev/Projects/ArffPar/build/bin/exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/stanislav/code/ArffPar/build/bin/exe")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exe" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/exe")
     if(CMAKE_INSTALL_DO_STRIP)

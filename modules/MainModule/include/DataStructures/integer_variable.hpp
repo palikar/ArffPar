@@ -9,7 +9,7 @@
 
 namespace data_works
 {
-    class IntegerVariable : Variable
+    class IntegerVariable : public Variable
     {
 
 

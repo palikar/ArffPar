@@ -33,7 +33,7 @@ cmake_force:
 .PHONY : cmake_force
 
 #=============================================================================
-# Set environment variables_ for the build.
+# Set environment variables for the build.
 
 # The shell in which to execute make rules.
 SHELL = /bin/sh
@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/stanislav/dev/Dev/Projects/ArffPar
+CMAKE_SOURCE_DIR = /home/stanislav/code/ArffPar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/stanislav/dev/Dev/Projects/ArffPar/build
+CMAKE_BINARY_DIR = /home/stanislav/code/ArffPar/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -124,14 +124,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stanislav/dev/Dev/Projects/ArffPar/build/CMakeFiles /home/stanislav/dev/Dev/Projects/ArffPar/build/modules/MainModule/CMakeFiles/progress.marks
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build && $(MAKE) -f CMakeFiles/Makefile2 modules/MainModule/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/stanislav/dev/Dev/Projects/ArffPar/build/CMakeFiles 0
+	cd /home/stanislav/code/ArffPar/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/stanislav/code/ArffPar/build/CMakeFiles /home/stanislav/code/ArffPar/build/modules/MainModule/CMakeFiles/progress.marks
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f CMakeFiles/Makefile2 modules/MainModule/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/stanislav/code/ArffPar/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build && $(MAKE) -f CMakeFiles/Makefile2 modules/MainModule/clean
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f CMakeFiles/Makefile2 modules/MainModule/clean
 .PHONY : clean
 
 # The main clean target
@@ -141,22 +141,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build && $(MAKE) -f CMakeFiles/Makefile2 modules/MainModule/preinstall
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f CMakeFiles/Makefile2 modules/MainModule/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build && $(MAKE) -f CMakeFiles/Makefile2 modules/MainModule/preinstall
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f CMakeFiles/Makefile2 modules/MainModule/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/stanislav/code/ArffPar/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 modules/MainModule/CMakeFiles/exe.dir/rule:
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build && $(MAKE) -f CMakeFiles/Makefile2 modules/MainModule/CMakeFiles/exe.dir/rule
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f CMakeFiles/Makefile2 modules/MainModule/CMakeFiles/exe.dir/rule
 .PHONY : modules/MainModule/CMakeFiles/exe.dir/rule
 
 # Convenience name for target.
@@ -166,8 +166,224 @@ exe: modules/MainModule/CMakeFiles/exe.dir/rule
 
 # fast build rule for target.
 exe/fast:
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/build
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/build
 .PHONY : exe/fast
+
+src/DataStructures/data_model.o: src/DataStructures/data_model.cpp.o
+
+.PHONY : src/DataStructures/data_model.o
+
+# target to build an object file
+src/DataStructures/data_model.cpp.o:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o
+.PHONY : src/DataStructures/data_model.cpp.o
+
+src/DataStructures/data_model.i: src/DataStructures/data_model.cpp.i
+
+.PHONY : src/DataStructures/data_model.i
+
+# target to preprocess a source file
+src/DataStructures/data_model.cpp.i:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.i
+.PHONY : src/DataStructures/data_model.cpp.i
+
+src/DataStructures/data_model.s: src/DataStructures/data_model.cpp.s
+
+.PHONY : src/DataStructures/data_model.s
+
+# target to generate assembly for a file
+src/DataStructures/data_model.cpp.s:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.s
+.PHONY : src/DataStructures/data_model.cpp.s
+
+src/DataStructures/enum_variable.o: src/DataStructures/enum_variable.cpp.o
+
+.PHONY : src/DataStructures/enum_variable.o
+
+# target to build an object file
+src/DataStructures/enum_variable.cpp.o:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o
+.PHONY : src/DataStructures/enum_variable.cpp.o
+
+src/DataStructures/enum_variable.i: src/DataStructures/enum_variable.cpp.i
+
+.PHONY : src/DataStructures/enum_variable.i
+
+# target to preprocess a source file
+src/DataStructures/enum_variable.cpp.i:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.i
+.PHONY : src/DataStructures/enum_variable.cpp.i
+
+src/DataStructures/enum_variable.s: src/DataStructures/enum_variable.cpp.s
+
+.PHONY : src/DataStructures/enum_variable.s
+
+# target to generate assembly for a file
+src/DataStructures/enum_variable.cpp.s:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.s
+.PHONY : src/DataStructures/enum_variable.cpp.s
+
+src/DataStructures/example.o: src/DataStructures/example.cpp.o
+
+.PHONY : src/DataStructures/example.o
+
+# target to build an object file
+src/DataStructures/example.cpp.o:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.o
+.PHONY : src/DataStructures/example.cpp.o
+
+src/DataStructures/example.i: src/DataStructures/example.cpp.i
+
+.PHONY : src/DataStructures/example.i
+
+# target to preprocess a source file
+src/DataStructures/example.cpp.i:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.i
+.PHONY : src/DataStructures/example.cpp.i
+
+src/DataStructures/example.s: src/DataStructures/example.cpp.s
+
+.PHONY : src/DataStructures/example.s
+
+# target to generate assembly for a file
+src/DataStructures/example.cpp.s:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.s
+.PHONY : src/DataStructures/example.cpp.s
+
+src/DataStructures/integer_variable.o: src/DataStructures/integer_variable.cpp.o
+
+.PHONY : src/DataStructures/integer_variable.o
+
+# target to build an object file
+src/DataStructures/integer_variable.cpp.o:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o
+.PHONY : src/DataStructures/integer_variable.cpp.o
+
+src/DataStructures/integer_variable.i: src/DataStructures/integer_variable.cpp.i
+
+.PHONY : src/DataStructures/integer_variable.i
+
+# target to preprocess a source file
+src/DataStructures/integer_variable.cpp.i:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.i
+.PHONY : src/DataStructures/integer_variable.cpp.i
+
+src/DataStructures/integer_variable.s: src/DataStructures/integer_variable.cpp.s
+
+.PHONY : src/DataStructures/integer_variable.s
+
+# target to generate assembly for a file
+src/DataStructures/integer_variable.cpp.s:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.s
+.PHONY : src/DataStructures/integer_variable.cpp.s
+
+src/DataStructures/real_variable.o: src/DataStructures/real_variable.cpp.o
+
+.PHONY : src/DataStructures/real_variable.o
+
+# target to build an object file
+src/DataStructures/real_variable.cpp.o:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o
+.PHONY : src/DataStructures/real_variable.cpp.o
+
+src/DataStructures/real_variable.i: src/DataStructures/real_variable.cpp.i
+
+.PHONY : src/DataStructures/real_variable.i
+
+# target to preprocess a source file
+src/DataStructures/real_variable.cpp.i:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.i
+.PHONY : src/DataStructures/real_variable.cpp.i
+
+src/DataStructures/real_variable.s: src/DataStructures/real_variable.cpp.s
+
+.PHONY : src/DataStructures/real_variable.s
+
+# target to generate assembly for a file
+src/DataStructures/real_variable.cpp.s:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.s
+.PHONY : src/DataStructures/real_variable.cpp.s
+
+src/DataStructures/text_variable.o: src/DataStructures/text_variable.cpp.o
+
+.PHONY : src/DataStructures/text_variable.o
+
+# target to build an object file
+src/DataStructures/text_variable.cpp.o:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o
+.PHONY : src/DataStructures/text_variable.cpp.o
+
+src/DataStructures/text_variable.i: src/DataStructures/text_variable.cpp.i
+
+.PHONY : src/DataStructures/text_variable.i
+
+# target to preprocess a source file
+src/DataStructures/text_variable.cpp.i:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.i
+.PHONY : src/DataStructures/text_variable.cpp.i
+
+src/DataStructures/text_variable.s: src/DataStructures/text_variable.cpp.s
+
+.PHONY : src/DataStructures/text_variable.s
+
+# target to generate assembly for a file
+src/DataStructures/text_variable.cpp.s:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.s
+.PHONY : src/DataStructures/text_variable.cpp.s
+
+src/DataStructures/variable.o: src/DataStructures/variable.cpp.o
+
+.PHONY : src/DataStructures/variable.o
+
+# target to build an object file
+src/DataStructures/variable.cpp.o:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o
+.PHONY : src/DataStructures/variable.cpp.o
+
+src/DataStructures/variable.i: src/DataStructures/variable.cpp.i
+
+.PHONY : src/DataStructures/variable.i
+
+# target to preprocess a source file
+src/DataStructures/variable.cpp.i:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.i
+.PHONY : src/DataStructures/variable.cpp.i
+
+src/DataStructures/variable.s: src/DataStructures/variable.cpp.s
+
+.PHONY : src/DataStructures/variable.s
+
+# target to generate assembly for a file
+src/DataStructures/variable.cpp.s:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.s
+.PHONY : src/DataStructures/variable.cpp.s
+
+src/arff_parr.o: src/arff_parr.cpp.o
+
+.PHONY : src/arff_parr.o
+
+# target to build an object file
+src/arff_parr.cpp.o:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.o
+.PHONY : src/arff_parr.cpp.o
+
+src/arff_parr.i: src/arff_parr.cpp.i
+
+.PHONY : src/arff_parr.i
+
+# target to preprocess a source file
+src/arff_parr.cpp.i:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.i
+.PHONY : src/arff_parr.cpp.i
+
+src/arff_parr.s: src/arff_parr.cpp.s
+
+.PHONY : src/arff_parr.s
+
+# target to generate assembly for a file
+src/arff_parr.cpp.s:
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.s
+.PHONY : src/arff_parr.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -175,7 +391,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.o
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -184,7 +400,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.i
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -193,7 +409,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.s
+	cd /home/stanislav/code/ArffPar/build && $(MAKE) -f modules/MainModule/CMakeFiles/exe.dir/build.make modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -209,6 +425,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... install"
 	@echo "... list_install_components"
+	@echo "... src/DataStructures/data_model.o"
+	@echo "... src/DataStructures/data_model.i"
+	@echo "... src/DataStructures/data_model.s"
+	@echo "... src/DataStructures/enum_variable.o"
+	@echo "... src/DataStructures/enum_variable.i"
+	@echo "... src/DataStructures/enum_variable.s"
+	@echo "... src/DataStructures/example.o"
+	@echo "... src/DataStructures/example.i"
+	@echo "... src/DataStructures/example.s"
+	@echo "... src/DataStructures/integer_variable.o"
+	@echo "... src/DataStructures/integer_variable.i"
+	@echo "... src/DataStructures/integer_variable.s"
+	@echo "... src/DataStructures/real_variable.o"
+	@echo "... src/DataStructures/real_variable.i"
+	@echo "... src/DataStructures/real_variable.s"
+	@echo "... src/DataStructures/text_variable.o"
+	@echo "... src/DataStructures/text_variable.i"
+	@echo "... src/DataStructures/text_variable.s"
+	@echo "... src/DataStructures/variable.o"
+	@echo "... src/DataStructures/variable.i"
+	@echo "... src/DataStructures/variable.s"
+	@echo "... src/arff_parr.o"
+	@echo "... src/arff_parr.i"
+	@echo "... src/arff_parr.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -223,6 +463,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/stanislav/dev/Dev/Projects/ArffPar/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/stanislav/code/ArffPar/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

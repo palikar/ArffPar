@@ -4,7 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/stanislav/dev/Dev/Projects/ArffPar/modules/MainModule/src/main.cpp" "/home/stanislav/dev/Dev/Projects/ArffPar/build/modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.o"
+  "/home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/data_model.cpp" "/home/stanislav/code/ArffPar/build/modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/data_model.cpp.o"
+  "/home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/enum_variable.cpp" "/home/stanislav/code/ArffPar/build/modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/enum_variable.cpp.o"
+  "/home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/example.cpp" "/home/stanislav/code/ArffPar/build/modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/example.cpp.o"
+  "/home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/integer_variable.cpp" "/home/stanislav/code/ArffPar/build/modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/integer_variable.cpp.o"
+  "/home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/real_variable.cpp" "/home/stanislav/code/ArffPar/build/modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/real_variable.cpp.o"
+  "/home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/text_variable.cpp" "/home/stanislav/code/ArffPar/build/modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/text_variable.cpp.o"
+  "/home/stanislav/code/ArffPar/modules/MainModule/src/DataStructures/variable.cpp" "/home/stanislav/code/ArffPar/build/modules/MainModule/CMakeFiles/exe.dir/src/DataStructures/variable.cpp.o"
+  "/home/stanislav/code/ArffPar/modules/MainModule/src/arff_parr.cpp" "/home/stanislav/code/ArffPar/build/modules/MainModule/CMakeFiles/exe.dir/src/arff_parr.cpp.o"
+  "/home/stanislav/code/ArffPar/modules/MainModule/src/main.cpp" "/home/stanislav/code/ArffPar/build/modules/MainModule/CMakeFiles/exe.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
