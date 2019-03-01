@@ -58,7 +58,8 @@ namespace arff_par
       if(line[0] == '%' || boost::algorithm::trim_all_copy(line).compare("") == 0)
       {
         continue;
-      } else if(data)
+      }
+      else if(data)
       {
         example_parts.clear();
         boost::split(example_parts, line, boost::is_any_of(","));
@@ -68,7 +69,8 @@ namespace arff_par
         new_example->setValues(example_parts);
         examples.push_back(new_example);
 
-      } else if(line[0] == '@')
+      }
+      else if(line[0] == '@')
       {
         if(boost::starts_with(line, settings->getRelationTag()))
         {

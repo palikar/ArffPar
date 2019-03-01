@@ -32,7 +32,7 @@ namespace data_works
       const std::string &getName() const;
 
       void setType(const VarType type);
-      const VarType getType() const;
+      VarType getType() const;
 
     private:
       std::string name_;
